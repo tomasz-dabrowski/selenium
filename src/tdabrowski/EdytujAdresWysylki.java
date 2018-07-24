@@ -17,7 +17,7 @@ public class EdytujAdresWysylki {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		
-		driver.findElement(By.xpath("(//a[text()='Zaloguj siê'])")).click();
+		driver.findElement(By.xpath("(//a[text()='Zaloguj siÄ™'])")).click();
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys(Credentials.LOGIN);
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(Credentials.PASSWORD);
 		Thread.sleep(2000);

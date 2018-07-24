@@ -17,7 +17,7 @@ public class SzukajWydarzenieGaleria {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		
-		driver.findElement(By.xpath("(//a[text()='Aktualnoúci'])")).click();
+		driver.findElement(By.xpath("(//a[text()='Aktualno≈õci'])")).click();
 		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("(//a[text()='Kultura i Nauka'])")).click();

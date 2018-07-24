@@ -18,9 +18,9 @@ public class SzukajPrzetargDrukuj {
 		
 		Thread.sleep(2000);
 		
-		driver.findElement(By.xpath("//input[@class='head-search-input']")).sendKeys("przetarg na dzia≥ki w przemi≥owie");
+		driver.findElement(By.xpath("//input[@class='head-search-input']")).sendKeys("przetarg na dzia≈Çki w przemi≈Çowie");
 		driver.findElement(By.xpath("//input[@class='head-search-button']")).click();
-		driver.findElement(By.xpath("(//a[text()='II przetarg na dzia≥ki w Przemi≥owie'])")).click();
+		driver.findElement(By.xpath("(//a[text()='II przetarg na dzia≈Çki w Przemi≈Çowie'])")).click();
 		//driver.findElement(By.id("listenButton1")).click();
 		driver.findElement(By.xpath("(//a[text()='Drukuj'])")).click();
 		

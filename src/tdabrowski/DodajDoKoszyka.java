@@ -17,11 +17,11 @@ public class DodajDoKoszyka {
 		driver.manage().window().maximize();
 		Thread.sleep(1000);
 		
-		driver.findElement(By.xpath("(//a[text()='Ksiêgarnia Karkonoska'])")).click();
-		driver.findElement(By.cssSelector("img[alt='Ksi¹¿ki']")).click();
+		driver.findElement(By.xpath("(//a[text()='KsiÄ™garnia Karkonoska'])")).click();
+		driver.findElement(By.cssSelector("img[alt='KsiÄ…Å¼ki']")).click();
 		Thread.sleep(1000);
 		
-		driver.findElement(By.xpath("(//a[h3[contains(text(),'Anatomia Nadcz³owieka')]])")).click();
+		driver.findElement(By.xpath("(//a[h3[contains(text(),'Anatomia NadczÅ‚owieka')]])")).click();
 		Thread.sleep(1000);
 		
 		driver.findElement(By.xpath("//button[text()='Do koszyka']")).click();
@@ -30,7 +30,7 @@ public class DodajDoKoszyka {
 		driver.findElement(By.xpath("(//a[text()='Zobacz koszyk'])")).click();
 		Thread.sleep(1000);
 		
-		driver.findElement(By.xpath("(//a[text()='PrzejdŸ do kasy'])")).click();
+		driver.findElement(By.xpath("(//a[text()='PrzejdÅº do kasy'])")).click();
 		Thread.sleep(1000);
 		
 		driver.close();

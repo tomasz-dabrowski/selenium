@@ -25,7 +25,7 @@ public class DodajAdministratora {
 		driver.findElement(By.xpath("(//div[@class='button1'])")).click();
 		Thread.sleep(2000);
 		
-		driver.findElement(By.xpath("(//a[span[text()='U¿ytkownicy']])")).click();
+		driver.findElement(By.xpath("(//a[span[text()='UÅ¼ytkownicy']])")).click();
 		Thread.sleep(1000);
 		
 		driver.findElement(By.xpath("(//li[@id='toolbar-new'])")).click();
